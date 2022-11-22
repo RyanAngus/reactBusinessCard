@@ -1,0 +1,106 @@
+/* font-family: 'Inter', sans-serif; */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #23252C;
+}
+
+.main-div {
+  margin: 0 auto;
+  background-color: #1A1B21;
+  /* border: 2px solid tomato; */
+  width: 317px;
+  height: 100%;
+  border-radius: .5rem;
+}
+
+/* INFO.JSX */
+
+.info-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+.headshot-img {
+  margin-top: .25em;
+  margin-bottom: 0;
+}
+
+.info-div h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: .75em;
+  margin-bottom: 0;
+}
+
+.info-div h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #F3BF99;
+  padding: .5rem 0;
+  margin-top: 0;
+}
+
+button {
+  background-color: #5093E2;
+  color:#ffffff;
+  font-weight: 700; 
+  padding: 1.25em 3em;
+  height: 2.5rem;
+  border-radius: 6px;
+  border-style: none;
+}
+
+i {
+  width: 20px;
+}
+
+/* ABOUT.JSX */
+
+.about-div {
+  margin: 0;
+  color: #ffffff;
+}
+
+.about-div h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+.about-div p {
+  margin-top: .25em;
+  margin-left: 2.5em;
+  padding-right: .25em;
+  line-height: 1.6;
+}
+
+/* INTERESTS.JSX */
+
+
+.interests-div {
+  margin: 0;
+  color: #ffffff;
+}
+
+.interests-div h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 1em;
+  margin-left: 2em;
+}
+
+.interests-div p {
+  margin-top: .25em;
+  margin-left: 2.5em;
+  padding-right: .25em;
+  padding-bottom: 2em;
+  line-height: 1.6;
+}
